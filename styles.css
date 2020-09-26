@@ -538,6 +538,11 @@ section
   align-items: center;
 }
 
+.scroll-hidden
+{
+  overflow: hidden;
+}
+
 .loader-wrapper > span
 {
    animation: loading 1s ease-in-out infinite alternate;
@@ -555,5 +560,5 @@ section
 
 @keyframes hide {
     from { opacity: 1; }
-    to   { opacity: 0;}
+    to   { opacity: 0; visibility: hidden;}
 }

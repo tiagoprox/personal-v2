@@ -37,7 +37,7 @@
 
       <div class="j-center">
         <span class="check-more">Check out more</span>
-        <img src="images/Icon.svg" alt="Arrow Icon">
+        <!-- <img src="images/Icon.svg" alt="Arrow Icon"> -->
       </div>
     </section>
 
@@ -173,5 +173,21 @@
       </div>
     </footer>
     <!-- /FOOTER -->
+
+    <!-- LOADING SCREEN -->
+    <div id="loader" class="loader-wrapper">
+        <span class="brand-big">tiago.</span>
+    </div>
+
+    <script>
+
+      function hideLoader()
+      {
+         document.getElementById('loader').classList.add("hide");
+      }
+
+      // Control page load
+      window.onload = hideLoader();
+    </script>
   </body>
 </html>

@@ -1,0 +1,7 @@
+<svg id="arrow-dot" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Area" width="24" height="24" fill="#fcfcfc" opacity="0"/>
+  <g id="Icon" transform="translate(29.301 34.724)">
+    <path id="Path" d="M4,17l6-6L4,5" transform="translate(-29.301 -34.724)" fill="none" stroke="#ffea00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line" x2="8" stroke-width="2" transform="translate(-17.301 -15.724)" stroke="#ffea00" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

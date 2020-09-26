@@ -1,0 +1,11 @@
+<svg id="LinkedIn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Area" fill="#fcfcfc" stroke="#133463" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <g id="Icon" transform="translate(1.29 2.499)">
+    <path id="Path" d="M16,8a6,6,0,0,1,6,6v7H18V14a2,2,0,0,0-4,0v7H10V14A6,6,0,0,1,16,8Z" transform="translate(-1.29 -2.499)" fill="none" stroke="#133463" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect id="Rect" width="4" height="12" stroke-width="2" transform="translate(0.71 6.501)" stroke="#133463" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle id="Path-2" data-name="Path" cx="2" cy="2" r="2" transform="translate(0.71 -0.499)" stroke-width="2" stroke="#133463" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

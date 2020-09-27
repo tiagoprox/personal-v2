@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Tiago Fernandes</title>
     <meta name="description" content="Portfolio of Tiago Fernandes. 2020.">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body id="body" class="scroll-hidden">
-    <div class="">
+    <div class="container">
       <!-- HEADER -->
       <header>
         <div id="header">
@@ -20,7 +21,10 @@
             <span>tiago.</span>
           </div>
 
-          <div class="menu">
+          <a class="menu-icon" href="#" onclick="show()">
+            <img src="images/Menu.svg" alt="Menu">
+          </a>
+          <div id="nav" class="menu">
             <ul>
               <li><a href="#about">About</a></li>
               <li><a href="#experience">Experience</a></li>
@@ -196,6 +200,17 @@
 
       // Control page load
       window.onload = hideLoader();
+    </script>
+
+    <script>
+      function show() {
+        var x = document.getElementById("nav");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
     </script>
   </body>
 </html>

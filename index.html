@@ -13,29 +13,29 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body id="body" class="scroll-hidden">
-    <div class="container">
-      <!-- HEADER -->
-      <header>
-        <div id="header">
-          <div class="brand">
-            <span>tiago.</span>
-          </div>
-
-          <a class="menu-icon" href="#" onclick="show()">
-            <img src="images/Menu.svg" alt="Menu">
-          </a>
-          <div id="nav" class="menu">
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+    <!-- HEADER -->
+    <header>
+      <div id="header">
+        <div class="brand">
+          <span>tiago.</span>
         </div>
-      </header>
-      <!-- /HEADER -->
 
+        <a class="menu-icon" href="#" onclick="show()">
+          <img src="images/Menu.svg" alt="Menu">
+        </a>
+        <div id="nav" class="menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- /HEADER -->
+
+    <div class="container">
       <!-- MAIN -->
       <section id="intro" class="">
         <div class="intro max">
@@ -146,11 +146,14 @@
           </div>
         </div>
       </section>
+      <!-- /MAIN -->
+    </div>
 
-      <section id="contact">
+    <footer>
+      <div id="contact">
         <div class="max">
           <div class="s-title-center">
-            <span class="section-title">Get in touch</span>
+            <span class="section-title contact-title">Get in touch</span>
             <div class="section-divider"></div>
           </div>
         </div>
@@ -173,17 +176,16 @@
               </a>
             </div>
         </div>
-      </section>
-      <!-- /MAIN -->
-      <footer>
-        <div id="footer">
+      </div>
+
+      <div id="footer">
+        <div class="footer-wrapper">
           <span class="brand-footer">tiago.</span>
           <span class="footer-caption">Developed by Tiago Fernandes</span>
           <span class="brand-footer">2020</span>
         </div>
-      </footer>
-      <!-- /FOOTER -->
-    </div>
+      </div>
+    </footer>
 
     <!-- LOADING SCREEN -->
     <div id="loader" class="loader-wrapper">
